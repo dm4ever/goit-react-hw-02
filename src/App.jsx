@@ -23,7 +23,6 @@ const App = () => {
       ...values,
       [feedbackType]: values[feedbackType] + 1
     });
-    console.log(values);
   };
 
   const handleReset = () => {
